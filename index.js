@@ -3,16 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Actors from './components/Actors';
-import UseEffectDemo from './components/UseEffectDemo';
-import PostLists from './components/PostLists';
+import jsonData from './data1.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
-    <PostLists/>
- 
+    <App/>
   </React.StrictMode>
 );
 
